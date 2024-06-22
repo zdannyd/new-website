@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+html {
+	scroll-behavior:smooth;
+}
+
+body {
+    font-family: "Inter", sans-serif, "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+display:block;
+max-width:100%;
+}
+
+input,
+button,
+textarea,
+select {
+font: inherit;
+}
+
+button {
+border: none;
+background: none;
+color: inherit;
+cursor: pointer;
+}

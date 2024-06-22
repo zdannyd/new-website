@@ -1,0 +1,18 @@
+
+:root {
+    /* colors */
+    --clr-back: #000000;
+    --clr-light: #ffffff;
+    --clr-contrast: #97ccca;
+    --clr-slate: #cdd0af;
+    /* font-sizes */
+    --font-xs: 0.75rem;
+    --font-small: 0.875rem;
+    --font-medium: 1rem;
+    --font-mediumlarge: 1.125rem;
+    --font-large: 1.5rem;
+    --font-xlarge: 1.875rem; 
+    /* font-families */
+    --font-head: "Inter", sans-serif;
+    --font-desc: "Source Code Pro", monospace;
+}
