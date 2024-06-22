@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/resets.css">
     <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/utils.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,6 +17,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header class="header container">
+        <div class="header__title-container">
+        <img class="header__img" src="images/logo-top.svg" alt="guy looking with a jacket on">
+        <h1 class="header__title">Slaying the Dragon</h1>
+        </div>
+
+        <svg class="header__bars" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="24" height="24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <nav class="header__nav">
+        <a href="#Git"><img class="header__git" src="./images/git.svg" alt="Github Logo"></a>
+        <a href="#Discord"> <img class="header__discord" src="./images/discord.svg" alt="Discord Logo"></a>
+        <a href="#Youtube"> <img class="header__youtube" src="./images/youtube.svg" alt="Youtube Logo"></a>
+        <div class="header__line"></div>
+        <a class="link header__account" href="#Account">Account ⇩</a>
+        <button class="btn header__btn">Enter App ⇨ </button>
+        </nav>
+    </header>
 </body>
 </html>

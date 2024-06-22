@@ -48,4 +48,16 @@
     max-width: 1536px;
   }
 }
+.link {
+  text-decoration: none;
+  color: var(--clr-slate);
+  cursor: pointer;
 
+}
+.btn {
+  background-color: var(--clr-light);
+  padding: .25rem 1em;
+  border-radius: 10px;
+  color: var(--clr-back);
+
+}

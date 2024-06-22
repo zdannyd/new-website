@@ -10,9 +10,14 @@
     --font-small: 0.875rem;
     --font-medium: 1rem;
     --font-mediumlarge: 1.125rem;
+    --font-mediumxlarge: 1.25rem;
     --font-large: 1.5rem;
     --font-xlarge: 1.875rem; 
     /* font-families */
     --font-head: "Inter", sans-serif;
-    --font-desc: "Source Code Pro", monospace;
+    --font-off: "Source Code Pro", monospace;
 }
+body {
+    background-color: var(--clr-back);
+}
+
