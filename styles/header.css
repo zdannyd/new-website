@@ -47,9 +47,7 @@
       
     }
 
-    .header__discord,
-    .header__youtube,
-    .header__git {
+    .header__social {
         background-color: var(--clr-light);
         cursor: pointer;
     }
