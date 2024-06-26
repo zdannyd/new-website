@@ -59,6 +59,11 @@
     display: block;
     margin-inline:auto;
 }
+.testimonial__button:hover {
+    transform: scale(1.05);
+    background-color: var(--clr-contrast);
+    transition: transform .3s ease-in;
+}
 /* xs */
  @media (min-width: 475px) {
     .testimonial__title,
