@@ -3,7 +3,7 @@
     /* colors */
     --clr-back: #000000;
     --clr-light: #ffffff;
-    --clr-contrast: #97ccca;
+    --clr-contrast: rgba(151, 204, 202, 0.2);
     --clr-slate: #cdd0af;
     /* font-sizes */
     --font-xs: 0.75rem;
