@@ -1,0 +1,10 @@
+.footer {
+    margin-top: 10rem;
+    text-align: center;
+    opacity: .5;
+}
+.footer__desc {
+    font-size: var(--font-xs);
+    color: var(--clr-slate);
+    line-height: .5;
+}
