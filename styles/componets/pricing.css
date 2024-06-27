@@ -1,0 +1,110 @@
+.pricing {
+    margin-top: 4rem;
+}
+.pricing__title {
+    color: var(--clr-slate);
+    font-size: var(--font-xs);
+    margin-bottom: .5rem;
+}
+
+.pricing__boxes {
+    background-color: var(--clr-contrast);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.pricing__box-css--0margin {
+    margin: 0;
+}
+.pricing__course {
+    font-size: var(--font-mediumlarge);
+    color: var(--clr-light);
+    font-family: var(--font-head);
+}
+.pricing__desc1 {
+    font-size: var(--font-xs);
+    color: var(--clr-light);
+    margin-bottom: 2rem;
+}
+.pricing__desc2 {
+    font-size: var(--font-xs);
+    color: var(--clr-slate);
+    font-family: var(--font-off);
+    margin-bottom: 1rem;
+}
+.pricing__button{
+    font-size: var(--font-xs);
+    font-family: var(--font-off);
+}
+/* xs */
+ @media (min-width: 475px) {
+    .pricing__title {
+        font-size: var(--font-small);
+    }
+    .pricing__course {
+        font-size: var(--font-mediumxlarge);
+    }
+    .pricing__desc1,
+    .pricing__desc2,
+    .pricing__button {
+        font-size: var(--font-small);
+    }
+ } 
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+ @media (min-width: 1024px) {
+    .pricing__container {
+        display: grid;
+        grid-template-areas: 
+        'css css css jav'
+        'rea rea nex nex';
+        gap: 1rem;
+    }
+    .pricing__box-css {
+        grid-area: css;
+    }
+    .pricing__box-java {
+        grid-area: jav;
+    }
+    .pricing__box-react {
+        grid-area: rea;
+    }
+    .pricing__box-next {
+        grid-area: nex;
+    }
+    .pricing__boxes {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .pricing__desc1 {
+        margin-bottom: 0;
+    }
+ } 
+
+/* xl */
+@media (min-width: 1280px) {
+    .pricing__title {
+        font-size: var(--font-medium);
+    }
+    .pricing__course {
+        font-size: var(--font-large);
+    }
+    .pricing__desc1,
+    .pricing__desc2,
+    .pricing__button {
+        font-size: var(--font-medium);
+    }
+} 
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
