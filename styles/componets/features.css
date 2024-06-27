@@ -1,0 +1,118 @@
+.features {
+    margin-top: 4rem;
+}
+.features__title {
+    color: var(--clr-slate);
+    font-size: var(--font-xs);
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+.features__main-title {
+    color: var(--clr-light);
+}
+.features__overview {
+    color: var(--clr-slate);
+    font-size: var(--font-xs);
+    margin-bottom: 1rem;
+}
+.features__boxes {
+    background-color: var(--clr-contrast);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: .5rem;
+}
+.features__svg {
+    border: 1px solid var(--clr-contrast);
+    display: inline-block;
+    padding: .75rem;
+    border-radius: 10px; 
+}
+.features__img {
+    height: 24px;
+    width: 24px;
+    color: white;
+}
+.features__type {
+    color: var(--clr-light);
+    margin-bottom: .5rem;
+    font-size: var(--font-mediumlarge);
+}
+.features__desc {
+    color: var(--clr-slate);
+    font-size: var(--font-xs);
+    font-family: var(--font-off);
+}
+/* xs */
+ @media (min-width: 475px) {
+    .features__title,
+    .features__overview,
+    .features__desc {
+        font-size: var(--font-small);
+    }
+    .features__main-title {
+        font-size: var(--font-xlarge);
+    }
+ }
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+ @media (min-width: 1024px) {
+    .features {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .features__boxes {
+        margin: 0;
+    }
+    .features__container {
+        display: grid;
+        grid-template-areas: 
+        'beg vid'
+        'wri dis';
+        gap: 1rem;
+    }
+    .gird__upper {
+        grid-area: upp;
+    }
+    .grid__beginner{
+        grid-area: beg;
+    }
+    .grid__video{
+        grid-area: vid;
+    }
+    .grid__written{
+        grid-area: wri;
+    }
+    .grid__discord{
+        grid-area: dis;
+    }
+ } 
+
+/* xl */
+ @media (min-width: 1280px) {
+    .features__title,
+    .features__overview,
+    .features__desc {
+        font-size: var(--font-medium);
+    }
+    .features__main-title {
+        font-size:calc(var(--font-xlarge) + 4px) ;
+    }
+    .features {
+        display: grid;
+        grid-template-areas:
+        'upp upp beg vid'
+        'upp upp wri dis'
+        ;
+    }
+ } 
+
+/* 2xl */
+/* @media (min-width: 1536px) {} *
+
